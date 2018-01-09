@@ -1,0 +1,160 @@
+/* CSS GENERAL */
+
+
+/* C'est la structure initale du site */
+body{
+    background-color: #56739A;
+    background-image: url(images/fondMenu.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    font-family: Verdana;
+    font-size: small;
+}
+
+/* C'est la structure du site */
+.bloc_page{
+    width: 75%;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    background: linear-gradient(70deg, #C9D4E9, #FFFFFF);
+    border-radius:20px;
+}
+
+/* C'est l'entete du site */
+.entete{
+    
+    background: linear-gradient(70deg, #FFFFFF, #56739A);
+    width: 100%;
+    height: 150px;
+    text-align:left;
+    border-radius:20px 20px 0px 0px;
+    
+}
+
+/* C'est le menu du site */
+.menu{ /* C'est la structure générale du menu */
+    width: 100%;
+    height: 40%;
+    padding: 10px 0 10px 0;
+    list-style: none;
+    background: #000000;
+    margin-top: -0px;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    overflow:hidden;
+}
+
+
+.menu a{ /* C'est les différents liens du menu */
+    float: left;
+    height: 20%;
+    padding: 0 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+
+
+/* C'est ce qui permet de sortir du flottant  */
+.clear{
+    clear: both;
+}
+
+
+
+
+/* Ce sont les boites à gauche du site */
+.boite{ /* C'est la structure initinale de la boite */
+    float:left;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.boite_top{ /* C'est la structure du haut de la boite */
+    background: #56739A;
+    width: auto;
+    height: 45%;
+    color: #FFFFFF;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #000000;
+}
+
+.boite_inside{ /* C'est la structure de la boite */
+    background: #FFFFFF;
+    width: auto;
+    text-align:center;
+    height:auto;
+    padding: 10px;
+    border: 1px solid #000000;
+    
+}
+
+
+/* C'est le contenu */
+.contenu{
+    width : 50%;
+    margin-left : 37%;
+    margin-right: 10%;
+    text-align:justify;
+}
+
+/* C'est le titre de niveau 1 */
+.contenu h1 {
+    color : #56739A;;
+    text-decoration: underline;
+    font-size : 30px;
+    text-align : center;
+    
+}
+
+/* C'est le titre de niveau 2 */
+.contenu h2 {
+    color : skyblue;
+    font-size : 25px;
+}
+
+.contenu p {
+    margin-bottom : 1px;
+}
+
+.contenu img {
+    width:75%;
+    height:75%;
+}
+
+.contenu span {
+    background: #56939F;
+}
+
+
+
+/* C'est le footer du site, c'est-à-dire le bas de page qui permet les d'énoncer les informations relatives au site */
+.footer{
+    background: #000000;
+    width: 100%;
+    height: auto;
+    margin-top:75px;
+    text-align:center;
+    color:#FFFFFF;
+    border-radius:0px 0px 20px 20px;
+    
+}
+
+
+/* Ce sont les liens du site */
+a{ /* C'est la structure des liens du site */
+    text-decoration: none;
+    color: #0D80F2;
+}
+
+a:hover{ /* C'est la structure des liens lorsqu'on passe la souris dessus du site */
+    text-decoration: underline;
+}

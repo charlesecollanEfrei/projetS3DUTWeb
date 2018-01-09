@@ -1,0 +1,40 @@
+/* CSS ACCUEIL GENERAL  INDEX.HTML */
+
+/* C'est la structure du site */
+.bloc_page_accueil{
+    width: 40%;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    background: linear-gradient(70deg, #C9D4E9, #FFFFFF);
+    border-radius:20px;
+}
+
+/* C'est le contenu */
+.contenu_page_accueil{
+    text-align:center;
+}
+
+
+/* C'est le bouton de connexion */
+.boutonConnexion {
+  background: #3498db;
+  border-radius: 28px;
+  font-family: Verdana;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+/* C'est le bouton de connexion, lorsque la souris est dessus */
+.boutonConnexion:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+
+/* C'est la disposition des labels dans le formulaire */
+form label{
+  display: block;
+}

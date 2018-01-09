@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+	<head>
+        <meta name="author" content="Charles Ecollan, Quentin Bresson, Hubert Mouginot" lang="fr"/>
+
+        <title>eStage</title>
+
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="styleAccueil.css" rel="stylesheet" type="text/css"/>
+
+	</head>
+
+
+	<body> <!-- C'est la structure initale du site -->
+
+		<div class="bloc_page_accueil"> <!-- C'est la structure du site -->
+
+			<div class="entete"> <!-- C'est l'entete du site -->
+                <img src="images/logoAucunFond.png" alt="Logo eStage" width="150" height="150" />
+			</div>
+
+            <div class="menu"> <!-- C'est le menu du site -->
+            </div>
+
+			<div class="clear"></div> <!-- C'est ce qui permet de sortir du flottant  -->
+
+			<div class="contenu_page_accueil"> <!-- C'est le contenu du site -->
+               <h1> Bienvenue sur le site de Gestion des Stages </h1>
+
+               <!-- Formulaire de connexion au site -->
+
+               		<form method="post" action="../controleurs/connexion.php">
+						<p>
+							<label for="identifiant"> Identifiant : </label>
+							<input type="text" name="identifiant" id="identifiant"/>
+						</p>
+						<p>
+							<label for="mdp"> Mot de passe : </label>
+							<input type="password" name="mdp" id="mdp"/>
+						</p>
+						<p>
+            				<input class="boutonConnexion" type="submit" name="envoyer" value="Se connecter"/>
+            			</p>
+					</form>
+
+			</div>
+
+			<div class="clear"></div> <!-- C'est ce qui permet de sortir du flottant  -->
+
+			<div class="footer"> <!-- C'est le footer du site, c'est-à-dire le bas de page qui permet les d'énoncer les informations relatives au site  -->
+                eStage 2015 - Réalisé par Charles Ecollan, Quentin Bresson, Hubert Mouginot
+			</div>
+
+
+        </div>
+
+	</body>
+
+</html>
